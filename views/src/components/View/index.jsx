@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text } from 'react-desktop/macOs';
+import { View } from 'react-desktop/macOs';
 import defaultWallpaper from '../../assets/ wallpaper/def.png';
 
 export default props => {
-  const { title, children } = props;
+  const { children } = props;
   return (
     <View
       background={` #000 url(${defaultWallpaper}) no-repeat center `}
